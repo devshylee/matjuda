@@ -1,0 +1,12 @@
+footer div ul{
+    list-style: none;
+    display: flex;
+}
+
+footer div ul li{
+    margin: 10px;
+}
+
+header .title{
+    text-align: center;
+}

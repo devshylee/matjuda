@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MATJUDA</title>
-    <link rel="stylesheet" href="./public/css/main.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="./public/css/main.css" />
+  </head>
+  <body>
     <header>
-        <h1 class="title">MATJUDA</h1>
-        <p class="sub-title">맛을 알려주다</p>
+      <h1 class="title">MATJUDA</h1>
+      <p class="sub-title">맛을 알려주다</p>
     </header>
     <section>
-        <article class="corner1">
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-        </article>
-        <article class="corner3">
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-        </article>
-        
-        <article class="breakfast">
+      <h2 class="today-date">오늘은 <span id="today-day"></span>입니다!</h2>
 
-        </article>
-        <article class="corner6">
+      <article class="corner1">
+        <p>corner1</p>
+        <ul class="menu-list">
+          <li id="menu-corner1"></li>
+        </ul>
+      </article>
+      <article class="corner3">
+        <p>corner3</p>
+        <ul class="menu-list">
+          <li id="menu-corner3"></li>
+        </ul>
+      </article>
 
-        </article>
-        <article class="daelimcook">
-
-        </article>
+      <article class="breakfast">
+        <p>breakfast</p>
+        <ul class="menu-list">
+          <li id="menu-breakfast"></li>
+        </ul>
+      </article>
+      <article class="corner6">
+        <p>corner6</p>
+        <ul class="menu-list">
+          <li id="menu-corner6"></li>
+        </ul>
+      </article>
+      <article class="daelimcook">
+        <p>daelimcook</p>
+        <ul class="menu-list">
+          <li id="menu-daelimcook"></li>
+        </ul>
+      </article>
     </section>
     <aside>광고가 띄워질 곳</aside>
     <footer>
-        <div>
-            <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>고객센터</li>
-            </ul>
-        </div>
-
+      <div>
+        <ul>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>고객센터</li>
+        </ul>
+      </div>
     </footer>
-</body>
+  </body>
+
+  <script src="./public/js/main.js"></script>
 </html>

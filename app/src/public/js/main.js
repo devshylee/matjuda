@@ -40,5 +40,4 @@ fetch(url)
     }
   });
 
-console.log(day); // 당일 날짜 확인
 document.getElementById("today-day").innerHTML = day;

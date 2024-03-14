@@ -1,21 +1,20 @@
-footer div ul{
-    list-style: none;
-    display: flex;
-
+footer div ul {
+  list-style: none;
+  display: flex;
 }
 
-
-footer div ul li{
-    margin: 10px; text-align: center;
+footer div ul li {
+  margin: 10px;
+  text-align: center;
 }
 
-.title{
-    text-align: center;
-    margin-bottom: 0px;
+.title {
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.sub-title{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 0px;
+.sub-title {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0px;
 }

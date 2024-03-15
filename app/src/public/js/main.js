@@ -38,6 +38,22 @@ fetch(url)
     } else if (menus.hasOwnProperty("Daelimcook")) {
       menuDaelimcook.innerHTML = menus.Daelimcook[day].join("<br />");
     }
+
+    const menudellibus = document.getElementById("menu-dellibus");
+
+    if (menus.hasOwnProperty("델리버스")) {
+      menudellibus.innerHTML = menus["델리버스"][day].join("<br />");
+    } else if (menus.hasOwnProperty("dellibus")) {
+      menudellibus.innerHTML = menus.dellibus[day].join("<br />");
+    }
+
+    const menuplus = document.getElementById("menu-plus");
+
+    if (menus.hasOwnProperty("PLUS+")) {
+      menuplus.innerHTML = menus["PLUS+"][day].join("<br />");
+    } else if (menus.hasOwnProperty("plus")) {
+      menuplus.innerHTML = menus.plus[day].join("<br />");
+    }
   });
 
 document.getElementById("today-day").innerHTML = day;

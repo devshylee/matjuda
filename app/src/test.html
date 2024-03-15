@@ -1,74 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hidden Element</title>
     <style>
-        .card-container {
-  display: flex;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-.card {
-  margin: 10px;
-  padding: 20px;
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.card.active {
-  background-color: #f0f0f0;
-}
-
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
-    <div class="card-container">
-        <div class="card active">
-          <h2>제목 1</h2>
-          <p>본문 1</p>
-        </div>
-        <div class="card">
-          <h2>제목 2</h2>
-          <p>본문 2</p>
-        </div>
-        <div class="card">
-          <h2>제목 3</h2>
-          <p>본문 3</p>
-        </div>
-      </div>
-      <script>
-        const cardContainer = document.querySelector('.card-container');
-const cards = cardContainer.querySelectorAll('.card');
 
-let activeIndex = 0;
+<p id="myParagraph" class="hh">a</p>
 
-function showCard(index) {
-  cards[activeIndex].classList.remove('active');
-  cards[index].classList.add('active');
-  activeIndex = index;
-}
+<script>
+    // 특정 시간대 설정
+    var targetTime = new Date(); // 현재 시간을 가져옵니다.
+    var currentHour = targetTime.getHours(); // 현재 시간의 시간을 가져옵니다.
 
-const nextButton = document.querySelector('.next-button');
-nextButton.addEventListener('click', () => {
-  showCard((activeIndex + 1) % cards.length);
-});
+    // 시간이 9시부터 11시 사이인 경우에만 해당 요소를 보여줍니다.
+    if (currentHour >= 9 && currentHour <= 11) {
+        document.getElementById("myParagraph").classList.remove("hidden");
+    } else {
+        document.getElementById("myParagraph").classList.add("hidden");
+    }
+</script>
 
-const prevButton = document.querySelector('.prev-button');
-prevButton.addEventListener('click', () => {
-  showCard((activeIndex - 1 + cards.length) % cards.length);
-});
-
-// 자동으로 카드 순환
-setInterval(() => {
-  showCard((activeIndex + 1) % cards.length);
-}, 3000);
-
-      </script>
 </body>
 </html>

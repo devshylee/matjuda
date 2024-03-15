@@ -10,6 +10,7 @@ const weekdays = [
 ];
 const day = today === 0 ? "일요일" : weekdays[today - 1]; // 오늘 요일 문자열
 
+
 // JSON 데이터 불러오기
 const url = "./public/crawling/daelim_menu.json";
 

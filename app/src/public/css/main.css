@@ -20,6 +20,9 @@ footer div ul li {
   text-align: center;
   margin-top: 0px;
 }
+.hidden {
+  display: none;
+}
 
 .today-date{
   text-align: center;

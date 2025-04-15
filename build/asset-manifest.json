@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17594d69.css",
+    "main.js": "/static/js/main.450e5873.js",
+    "static/js/453.7fbf5cf9.chunk.js": "/static/js/453.7fbf5cf9.chunk.js",
+    "static/media/Cafe24OhsquareAir-v2.0.woff": "/static/media/Cafe24OhsquareAir-v2.0.8b32572e250533976b92.woff",
+    "static/media/Cafe24OhsquareAir-v2.0.woff2": "/static/media/Cafe24OhsquareAir-v2.0.6527146a360609f13fbf.woff2",
+    "static/media/noPicture.svg": "/static/media/noPicture.93e94e3150add21698930a5a6455aefa.svg",
+    "static/media/X.svg": "/static/media/X.1da7d022a5f322a86fea80b789d69fc6.svg",
+    "static/media/V.svg": "/static/media/V.524d8e7e172efb67d7269ecffb36fa23.svg",
+    "static/media/thumb-down.svg": "/static/media/thumb-down.cf20d28fe0b6d595c17182b7c605514b.svg",
+    "static/media/thumb-up.svg": "/static/media/thumb-up.0851c369db20d57c70971989baef020d.svg",
+    "index.html": "/index.html",
+    "main.17594d69.css.map": "/static/css/main.17594d69.css.map",
+    "main.450e5873.js.map": "/static/js/main.450e5873.js.map",
+    "453.7fbf5cf9.chunk.js.map": "/static/js/453.7fbf5cf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17594d69.css",
+    "static/js/main.450e5873.js"
+  ]
+}

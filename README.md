@@ -33,6 +33,17 @@
 
 ---
 
+## 👩‍💻 기획 & 설계
+
+- [📄 기능 설명서](https://sly-grape-e30.notion.site/10611252aa9680f1b260e5b009581f2d)
+- [⚙ 기능 명세서](http://sly-grape-e30.notion.site/10611252aa96800cb9d5c98875b98858?pvs=74)
+- [☁ DB ERDCloud](https://www.erdcloud.com/d/26ggvtwpE5tjyn5D2)
+- [📒 DB 명세서](https://sly-grape-e30.notion.site/DB-10611252aa96807fa75edc185c8f2cc3?pvs=74)
+- [⌨ API 명세서](https://sly-grape-e30.notion.site/API-10611252aa9680fa836cc91eb3458b2e?pvs=74)
+- [💾 API 문서](https://sly-grape-e30.notion.site/API-10611252aa9680f4bb77cd3e37e801b7?pvs=74)
+
+---
+
 ## 🛠️ 기술 스택
 
 | 구분 | 기술 |

@@ -35,12 +35,12 @@
 
 ## 👩‍💻 기획 & 설계
 
-- [📄 기능 설명서](https://sly-grape-e30.notion.site/10611252aa9680f1b260e5b009581f2d)
-- [⚙ 기능 명세서](http://sly-grape-e30.notion.site/10611252aa96800cb9d5c98875b98858?pvs=74)
-- [☁ DB ERDCloud](https://www.erdcloud.com/d/26ggvtwpE5tjyn5D2)
-- [📒 DB 명세서](https://sly-grape-e30.notion.site/DB-10611252aa96807fa75edc185c8f2cc3?pvs=74)
-- [⌨ API 명세서](https://sly-grape-e30.notion.site/API-10611252aa9680fa836cc91eb3458b2e?pvs=74)
-- [💾 API 문서](https://sly-grape-e30.notion.site/API-10611252aa9680f4bb77cd3e37e801b7?pvs=74)
+- [📄 기능 설명서](http://heliotrope-mandible-d59.notion.site/1d7021f660718008837cf7c521b17168?pvs=74)
+- [⚙ 기능 명세서](https://heliotrope-mandible-d59.notion.site/1d7021f6607180d19e30dc63f9b421c2?pvs=74)
+- [☁ DB ERDCloud](https://www.erdcloud.com/d/vtSNbp6MYKXPSsuxQ)
+- [📒 DB 명세서](https://heliotrope-mandible-d59.notion.site/DB-1d7021f6607180c7b775d25dd1ea1388?pvs=74)
+- [⌨ API 명세서](https://heliotrope-mandible-d59.notion.site/API-8fb8ae7ec3a14f14a24273cbc6744ad1)
+- [💾 API 문서](https://heliotrope-mandible-d59.notion.site/API-1d7021f660718090a3f5fe8382e8da43)
 
 ---
 

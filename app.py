@@ -32,23 +32,18 @@ from PIL import Image, ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 app = Flask(__name__)
-CORS(app)  # 보안정책 비활성화
+CORS(app)
 
 app.config['MAX_CONTENT_LENGTH'] = 32 * 1024 * 1024 
 
 
-# Configure Google Cloud Vision API
+
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 client = vision.ImageAnnotatorClient()
 
 # DB연결
 def get_db_connection():
-    return mysql.connector.connect(
-        host="matjudadb.cdqoeckimugc.ap-northeast-2.rds.amazonaws.com",
-        user="admin",
-        password="2019matjuda2025",
-        database="matjudadb"
-    )
+    return mysql.connector.connect()
 
 # 상태정보
 allCornerFlag = {
